@@ -1,0 +1,141 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html body {
+  height: 100%;
+  /*background-image: url("https://i.pinimg.com/originals/a6/22/50/a62250e0b8576e94f8082cde346ad8a7.jpg");*/
+  /*background-image: url("https://www.wallpaperbetter.com/wallpaper/363/771/828/line-shape-2K-wallpaper.jpg");*/
+   /*background-image: url("https://image.freepik.com/free-vector/red-black-arrow-overlap-gray-background_33869-656.jpg");*/
+   background-image: url("https://vignette.wikia.nocookie.net/angrygrandpa/images/5/50/Wiki-background/revision/latest?cb=20190612151252");
+  /*background-image: url("../images/background.png");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+
+#navbar_text{
+  font-size: 20px;
+  background-color: black;
+}
+
+#navbar_text a:hover {
+   background: linear-gradient(to right, #353740 20%,  #F2E863 100%);
+  -webkit-background-fill-color: transparent;
+}
+
+#carouselimg{
+  position: relative;
+  display: inline-block;
+
+}
+
+#image_home{
+  margin-top: 20px;
+  height: 60%;
+  width: 85%;
+  position: relative;
+}
+
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #7A7D80;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+}
+
+
+ #map {
+        width: 50%;
+        height: 500px;
+        background-color: grey;
+        float: right;
+        position: relative;
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 50px;
+
+      }
+
+#contacts {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  overflow-x: hidden; 
+  max-width: 80%;
+  background: linear-gradient(to right, #DEE5EA 20%,  #8E9295 100%);
+  -webkit-background-fill-color: transparent;
+  margin-bottom: 50px;"
+}
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+  .nav {
+    display: none;
+  }
+  .main {
+    margin-left: 0;
+  }
+
+}
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .nav {
+    display: none;
+  }
+  .main {
+    margin-left: 0;
+  }
+
+}
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 961px) {
+
+
+}
+
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+
+
+
+
+
